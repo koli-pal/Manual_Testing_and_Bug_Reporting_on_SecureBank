@@ -11,6 +11,7 @@ SecureBank
 - [Xmind](https://www.xmind.net/): For Mindmap Design.
 - [Google Sheets](https://workspace.google.com/products/sheets/): For writing test cases and other contents.
 - [Google Chrome](https://www.google.com/chrome/): For testing and finding bugs. You can use any other web application.
+- [Docker Desktop](https://docs.docker.com/get-docker/): For runing the application.
 
 ## Project Overview
 - [Test Plan](#test-plan)
@@ -21,14 +22,12 @@ SecureBank
 - [Bug Report](#bug-report)
 - [Test Metrics](#test-metrics)
 
-## Modules Covered
+## Features Covered
 - **Account Management:**
   - Sign Up  
   - Login  
-  - Logout  
-- **Homepage:**  
-  - Visual Elements  
-  - Navigation Menu  
+  - Create New
+  - Transaction  
 
 ## Test Types
 - **Functional Testing:** Ensures application features work as intended.  
@@ -47,29 +46,25 @@ Writing test scenarios for manual testing is an essential step in the quality as
 
 ## Test Case Writing
 This is the main part of the project. After setting up test planning and scenarios, test cases were written and executed systematically. All the test cases have been executed without delay.  
-- **Total Test Cases:** 104  
-- **Passed:** 94  
-- **Failed:** 10  
+- **Total Test Cases:** 48  
+- **Passed:** 39  
+- **Failed:** 9  
 
 ## Test Summary
 A test summary for manual testing is an essential part of the testing lifecycle. It provides a comprehensive overview of the testing process, outcomes, and overall product quality.
 
 ## Bug Report
-Bug reporting is a critical activity in manual testing, as it provides a structured way to document and communicate issues discovered during the testing process. The number of bugs discovered in test case execution is concentrated in this section. As noted from the previous section (Test Case Writing), 10 test cases failed. 
-- **Issues Identified:** SL-11, 22, 23, 24, 27, 28, 29, 36, 68, 88.  
-
-## Known Issues
-1. **UI Focus Issue:** Fields do not visually highlight when clicked (Sign Up page).  
-2. **Input Validation Errors:** Special characters are accepted in name fields.  
-3. **CAPTCHA Missing:** CAPTCHA implementation is absent on the Login page.  
+Bug reporting is a critical activity in manual testing, as it provides a structured way to document and communicate issues discovered during the testing process. The number of bugs discovered in test case execution is concentrated in this section. As noted from the previous section (Test Case Writing), 9 test cases failed. 
+- **Issues Identified:** SL-7, 11, 12, 19, 23, 27, 28, 33, 40.   
+ 
 
 ## Test Metrics
 Test metrics for manual testing is essential for measuring, analyzing, and improving the testing process and the overall quality of the product. Test metrics provide quantifiable data to track the progress, efficiency, and effectiveness of testing activities.  
 - **Execution Rate:** 100%  
-- **Pass Rate:** 90.4%  
-- **Fail Rate:** 9.6%  
+- **Pass Rate:** 81.25%  
+- **Fail Rate:** 19%  
 
 ## Project Reference
 For a better view of the project, refer to the detailed spreadsheet documentation:  
-[Google Sheets Test Documentation](https://docs.google.com/spreadsheets/d/1oILtdwFWDRK_CzEmo1O8__rDGEAGbheI08SBnoJKbzU/edit?gid=0#gid=0)
+[Google Sheets Test Documentation](https://docs.google.com/spreadsheets/d/1DikucbSuAwJ7E_uOjLeKeaMeKkJ-ruF4/edit?usp=sharing&ouid=111551182525741398430&rtpof=true&sd=true)
 
